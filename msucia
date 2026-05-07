@@ -1,10 +1,12 @@
-while True:
-    print("Escolha uma música da biblioteca para ver a letra")
-    print("1 - Joji - FTC")
-    print("2 - Joji - If It Only Gets Better")
-    print("3 - Joji - WORLD$STAR MONEY")
-    musica = int(input("Digite o número da música: "))
-    if musica == 1:
+
+print("Escolha uma música da biblioteca para ver a letra")
+print("1 - Joji - FTC")
+print("2 - Joji - If It Only Gets Better")
+print("3 - Joji - WORLD$STAR MONEY")
+
+musica = int(input("Digite o número da música: "))
+
+if musica == 1:
     print("Joji - FTC")
     print("""
     Fuck the club (fuck the club)
@@ -24,9 +26,9 @@ while True:
  No more living lies
  You'll be here for life (you'll be here for, ah)""")
  
-  elif musica == 2:
-    print("Joji - If It Only Gets Better")
-    print("""
+elif musica == 2:
+ print("Joji - If It Only Gets Better")
+ print("""
     If it only gets better from here
  If it only gets better from here
  Then what's there to change about it?
@@ -37,7 +39,7 @@ while True:
  Ooh, ooh, ooh-ooh
  Ooh, ooh, ooh-ooh""")
 
-  elif musica == 3:
+elif musica == 3:
     print("Joji - WORLD$STAR MONEY")
     print("""
  I looked at you and said, oh oh oh
@@ -56,10 +58,3 @@ while True:
  I don't wanna die
  I don't wanna die
  I don't wanna die""")
-
-    pergunta = int(input("Sair?: (S/N) "))
-    if pergunta == 1:
-        print("Até mais!")
-        break
-    elif pergunta == 2:
-        print("Continuando...")
