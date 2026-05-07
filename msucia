@@ -1,0 +1,65 @@
+while True:
+    print("Escolha uma música da biblioteca para ver a letra")
+    print("1 - Joji - FTC")
+    print("2 - Joji - If It Only Gets Better")
+    print("3 - Joji - WORLD$STAR MONEY")
+    musica = int(input("Digite o número da música: "))
+    if musica == 1:
+    print("Joji - FTC")
+    print("""
+    Fuck the club (fuck the club)
+ I said, fuck the club (fuck the club)
+ I won't wait in line (wait in line)
+ I won't wait in line (wait in line)
+ I said, fuck the club (said, fuck the club)
+
+ I said, fuck the club (said, fuck the club)
+ That you'll be fine (that you'll be fine)
+ That you'll be fine (that you'll be fine)
+ I'd rather be next to you
+ Strangers in the lights
+
+ Dancing in the night
+ I'd rather be next to you
+ No more living lies
+ You'll be here for life (you'll be here for, ah)""")
+ 
+  elif musica == 2:
+    print("Joji - If It Only Gets Better")
+    print("""
+    If it only gets better from here
+ If it only gets better from here
+ Then what's there to change about it?
+ Shit, I just won't think about it
+
+ Ooh, ooh, ooh
+ Ooh, ooh, ooh
+ Ooh, ooh, ooh-ooh
+ Ooh, ooh, ooh-ooh""")
+
+  elif musica == 3:
+    print("Joji - WORLD$STAR MONEY")
+    print("""
+ I looked at you and said, oh oh oh
+ Don't hate me, am I crazy?
+ So tenderly you watch me burn, you watch me burn, oh
+ So tell me, am I crazy?
+
+ Cause I do, cause I do
+ Cause I do, cause I do
+ Cause I do, cause I do
+
+ Ooooooooooooooooo
+ La, la la la la la la la la la la la (goddamn)
+ Ooooooooooooooooo (oh)
+
+ I don't wanna die
+ I don't wanna die
+ I don't wanna die""")
+
+    pergunta = int(input("Sair?: (S/N) "))
+    if pergunta == 1:
+        print("Até mais!")
+        break
+    elif pergunta == 2:
+        print("Continuando...")
